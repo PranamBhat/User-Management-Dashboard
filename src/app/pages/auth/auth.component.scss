@@ -1,0 +1,22 @@
+.auth-wrapper {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  .auth-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100%;
+
+    .img-wrapper{
+      margin-bottom: 30px;
+      text-align: center;
+      img{
+        max-width: 60%;
+      }
+    }
+  }
+}
