@@ -1,21 +1,24 @@
-- [User Authorization Project](#user-authorization-project)
-  - [Running App](#running-app)
+- [User Management Dashboard](#user-authorization-project)
+
+  - [Running Application](#running-app)
   - [Rules](#rules)
   - [Roles](#roles)
-  - [About App](#about-app)
+  - [About Application](#about-app)
   - [TO DO](#to-do)
-  - [Known Issues](#known-issues)
-  - [Screen Shots](#screenshots)
+  - [Screenshots](#screenshots)
     - [Login - Register And Angular Form Validation](#login---register-and-angular-form-validation)
     - [Customer](#customer)
     - [Admin](#admin)
     - [Super Admin](#super-admin)
 
-# User Authorization Project
+# User Management Dashboard
 
-Welcome to User Management App! There is 3 types (Super Admin, Admin,
-Customer) of roles. This app has 6 pages (Login, Register, Home, User
-Listing, 401 and 404).
+Welcome to User Management Dashboard! 
+
+* This application has 3 types of roles : (Super Admin, Admin, Customer) 
+
+* This application has 6 pages : (Login, Register, Home, User Listing, 401 and 404)
+
 
 > Some available accounts:
 >
@@ -27,9 +30,16 @@ Listing, 401 and 404).
 >
 >   You could take a look to db.json for more account data.
 
-## Running App
+## Running Application
 
-After install depencies with `npm start` command you can run json server and Angular development server easily.
+
+git clone https://github.com/PranamBhat/User-Management-Dashboard.git
+
+cd User-Management-Dashboard
+
+npm install
+
+npm start
 
 ## Rules
 
@@ -50,7 +60,7 @@ After install depencies with `npm start` command you can run json server and Ang
 - Admin _(role value: 2)_
 - Customer _(role value: 1)_
 
-## About App
+## About Application
 
 - Created with Angular v13
 - Uses Angular Material Framework for app compoments
@@ -65,11 +75,7 @@ After install depencies with `npm start` command you can run json server and Ang
 - NGRX should be use to state managament
 - Usualy i use `toPromise()` for converting observables to promise then use in async functions with await. I think it make codes more readable and avoid problems like cold observale and unsubscribe. Now `toPromise()` is depraced, need to find new method instead of it.
 
-## Known Issues
-
-- When Super Admin change its account role to Admin still can use Super Admin privileges. To fix this issue should be disabled role input on user form if current user is same.
-
-## Screen Shots
+## Screenshots
 
 ### Login - Register And Angular Form Validation
 
@@ -106,3 +112,21 @@ After install depencies with `npm start` command you can run json server and Ang
 ![Super Admin Edit User](screenshots/super-admin/super_admin_edit_user.png)
 
 ![Super Admin User List](screenshots/super-admin/super_admin_delete_user.png)
+
+
+
+## From Developer
+
+You can get in touch with me on my LinkedIn Profile: [![LinkedIn Link](https://img.shields.io/badge/Connect-Pranam%20Bhat-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
+)](https://www.linkedin.com/in/pranam-bhat-11670689/)
+
+You can also follow me on GitHub to stay updated about my latest projects: [![GitHub Follow](https://img.shields.io/badge/Connect-Pranam%20Bhat-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/PranamBhat)
+
+If you liked the repo then kindly support it by giving it a star ⭐
+
+### Contact
+
+Made with :heart: by Pranam Bhat. Connect me on https://www.linkedin.com/in/pranam-bhat-11670689/
+
+For any queries : pranam707@gmail.com
+
